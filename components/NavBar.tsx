@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { Custombtn } from "./Custombtn"
+import { CustomButton } from "./CustomButton"
 
 export const NavBar = () => {
   return (
@@ -13,13 +13,12 @@ export const NavBar = () => {
          height={18}
          className="object-contain"
         />
-        <Custombtn
+        <CustomButton
             title="Sign In"
             btnType="button"
             containerStyles='bg-white rounded-full
             text-primary-blue min-w-[130px]'
         />
-        
       </nav>
     </header>
   )

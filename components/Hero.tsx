@@ -1,6 +1,6 @@
 "use client"
 import Image from "next/image"
-import { Custombtn } from "./Custombtn"
+import { CustomButton } from "./CustomButton"
 
 export const Hero = () => {
     const handleScroll = () => {
@@ -15,7 +15,7 @@ export const Hero = () => {
         <p className="hero__subtitle">
             Streamline your car rental experience with our effortless booking process.
         </p>npm rund ev 
-       <Custombtn
+       <CustomButton
          title="Explorecars"
          containerStyles="bg-primary-blue text-white rounded-full mt-10"
          handleClick={handleScroll}
