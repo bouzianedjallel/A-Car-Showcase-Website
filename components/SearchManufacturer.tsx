@@ -12,8 +12,9 @@ export const SearchManufacturer = ({ manufacturer, setManufacturer }: manufactur
       ? manufacturers
       : manufacturers.filter((item) =>
           item
-            .toLowerCase()
-            .replace(/\s+/g, "").includes(query.toLowerCase().replace(/\s+/g, ""))
+            .toLowerCase() 
+            .replace(/\s+/g, "")
+            .includes(query.toLowerCase().replace(/\s+/g, ""))
         );
 
   return (
